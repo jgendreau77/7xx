@@ -1,13 +1,34 @@
 /* CSS Document */
 
+html {
+	height: 100%;
+	overflow: hidden;
+}
+
 body {
-    background-color: #CCC;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+    background-color: #99CCFF;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#6af), to(#bdf));
+    background-image: -webkit-linear-gradient(#6af, #bdf);
+    background-image: -moz-linear-gradient(#6af, #bdf);
+    background-image: linear-gradient(#6af, #bdf);
+}
+/* Hides scroll bar */
+::-webkit-scrollbar {
+    display: none;
 }
 /* SNOWMAN */
 .snowman {
+	text-align: center;
     width: 250px;
     margin: auto;
     overflow: visible;
+	position: fixed;
+	bottom: -300px;
+	left: 40%;
 }
 .smBody, .smFeet, .smHead {
     border: thin #000 solid;
@@ -98,5 +119,16 @@ body {
     height: 300px;
     z-index: 8;
     margin-bottom: -40px;
+}
+.hill {
+    border-top: 2px solid #000;
+    width: 300%;
+    margin-left: -150%;
+    min-height: 100px;
+    padding: 60%;
+    border-radius: 50%;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    background-color: #FFF;
 }
 
