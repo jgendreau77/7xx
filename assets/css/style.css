@@ -22,6 +22,70 @@ body {
     z-index: 10;
     width: 50%;
 }
+.hat {
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    position: absolute;
+    top: -70px;
+    left: 20px;
+}
+.rim {
+    background-color: black;
+    width: 120px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: -20px;
+}
+.face {
+    margin: 40px auto;
+    height: 30px;
+    position: relative;
+    width: 50%;
+}
+.eye  {
+    border: thin #000 solid;
+    width: 20px;
+    height: 15px;
+    background-color: black;
+    border-radius: 45%;
+}
+.leye {
+    float: left;
+}
+.reye {
+    float: right;
+}
+
+.carrot-nose {
+  position: absolute;
+  width: 23%;
+  height: 200%;
+  top: 10%;
+  left: 85%;
+  border-radius: 50% 50% 50% 70%  / 60% 50% 10% 10%;
+  background: linear-gradient(to right, #eab4a7, #ca7f68, #b94b34);
+  transform: rotate(76deg);
+}
+.mouth {
+	position: absolute;
+    border: thin #000 solid;
+    width: 20px;
+    height: 15px;
+    background-color: black;
+    border-radius: 45%;
+}
+
+.mouth {
+    top: 60px;
+	left: 5px;
+    width: 50px;
+}
+
 .smBody {
     width: 70%;
     height: 200px;
