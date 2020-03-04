@@ -11,3 +11,8 @@ https://7xx.mysitedevelopment.com/
 - created styles for snowman divs
 - linked style.css file in index.html
 
+700.1
+- added snowman face and hat divs to index.html
+- created styles for snowman face and hat divs
+- changed nose to carrot-nose in index.html and style.css
+- addded sytles in css to make carrot-nose
