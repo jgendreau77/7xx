@@ -29,3 +29,10 @@ https://7xx.mysitedevelopment.com/
 - added js folder with app.js file to randomize the position of trees when you refresh the page
 - added tree div to index.html
 - added tree styles to style.css file
+
+703
+- added mountain div to index.html
+- added mountain styles to style.css file and made change to mountain height and px
+- added js to randomize position of mountains when screen is refreshed
+
+
