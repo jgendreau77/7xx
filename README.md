@@ -24,3 +24,8 @@ https://7xx.mysitedevelopment.com/
 - forced content to stay in window and the overflow to be hidden by adding html styles
 - forced scroll bar to be hidden
 - updated snowman style to center the snowman in the screen
+
+702
+- added js folder with app.js file to randomize the position of trees when you refresh the page
+- added tree div to index.html
+- added tree styles to style.css file
