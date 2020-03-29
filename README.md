@@ -35,4 +35,9 @@ https://7xx.mysitedevelopment.com/
 - added mountain styles to style.css file and made change to mountain height and px
 - added js to randomize position of mountains when screen is refreshed
 
+704
+- added snow div to index.html
+- added snow styles to style.css
+- added js to make it snow
+
 
