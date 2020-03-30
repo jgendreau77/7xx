@@ -1,5 +1,5 @@
 // JavaScript Document
-var Snowflake = (function () {
+var Snowflake = (function() {
 	var flakes;
 	var flakesTotal = 250;
 	var wind = 0;
@@ -19,7 +19,7 @@ var Snowflake = (function () {
 		this.div.style.width = this.size + 'px';
 		this.div.style.height = this.size + 'px';
 	}
-	Snowflake.prototype.move = function () {
+	Snowflake.prototype.move = function() {
 		if (this.hit) {
 			if (Math.random() > 0.995) this.melt = true;
 		} else {
